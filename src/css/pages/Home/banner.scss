@@ -1,0 +1,86 @@
+.banner{
+    position: relative;
+    height: 800px;
+    background-image: url(../image/slider-processing-slide-01-bg.jpg);
+    .container{
+        .banner_wrap{
+            display: flex;
+            justify-content: space-between;
+            .banner_right{
+                position: absolute;
+                right: 0;
+                top: 85px;
+            }
+            .banner_left{
+                position: absolute;
+                top: 40%;
+                width: 50%;
+                p{
+                    color: #fff;
+                    line-height: 30px;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .banner_name{
+                    h1{
+                        color: #fff;
+                        font-size: 58px;
+                        line-height: 80px;
+                    }
+                    mark{
+                        color:#d2a98e;
+                        font-size: 58px;
+                        line-height: 80px;
+                        background-color: unset;
+                        font-weight: 600;
+                    }
+                }
+                h6{
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 40px;
+                }
+                .btn{
+                    a{
+                        z-index: 1;
+                        background-color: rgb(210, 169, 142);
+                        color: rgb(255, 255, 255);
+                        padding: 15px 30px;
+                        text-align: center;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 56px;                      
+                        border-radius: 5px;
+                        transform: translate(0px, 0px);
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            background-color: #fff;
+                            color: #086ad8;
+                        }
+                    }
+                    i{
+                        border-radius: 100%;
+                        color: #fff;
+                        width: 34px;
+                        border: 1px solid #fff;
+                        height: 34px;
+                        vertical-align: middle;
+                        padding-top: 10px;
+                        font-size: 10px;
+                        margin: 0 5px 0 15px;
+                        transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+                        &:hover{
+                            transform: scale3d(1.15, 1.15, 1.15);
+                        }
+                    }
+                    span{
+                        font-weight: 600;
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

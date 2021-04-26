@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.2.3/collection/components/icon/icon.min.css")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.1/css/all.css")
+        link(rel="stylesheet", href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css")
+        link(rel="stylesheet", href="css/index.css")
+        
+        block css
+    body.page-mobile-menu-opened
+        .wrapper
+            include ./layouts/sub.pug
+            include ./layouts/header.pug
+            block content
+            include ./layouts/footer.pug
+        .page-mobile-main-menu       
+            .inner
+                .page-mobile-menu-header
+                    .page-mobile-menu-logo
+                        a(href="http://")
+                            img(src="image/dark-logo.png")
+                    .page-close-mobile-menu
+                .page-mobile-menu-content
+                    ul.bottom_nav
+                            li.bottom-item
+                                a(href="#")
+                                    span Home
+                                    <i class="fas fa-chevron-down menu1"></i>
+                                ul.menu-item.menu-item1
+                                    li.item
+                                        a(href="#") Software & Techology
+                                    li.item
+                                        a(href="#") Startup Business
+                                    li.item
+                                        a(href="#") IT Agency
+                                    li.item
+                                        a(href="#") IT Services
+                                    li.item
+                                        a(href="#") IT Solution
+                                    li.item
+                                        a(href="#") Cyber Security
+                                    li.item
+                                        a(href="#") Modern IT Company
+                                    li.item
+                                        a(href="#") Trusted Services
+                                    li.item
+                                        a(href="#") Machine Learning
+                                    li.item
+                                        .menu_item-wrap 
+                                            a(href="#")
+                                                span.new Software innovation
+                                    li.item
+                                        .menu_item-wrap
+                                            a(href="#")
+                                                span.new Mitech Shop
+                                    li.item
+                                        .menu_item-wrap
+                                            a(href="#")
+                                                span.new Mitech RTL
+                            li.bottom-item
+                                a(href="#")
+                                    span Company
+                                    <i class="fas fa-chevron-down menu2a"></i>
+                                ul.menu-item.menu-item2
+                                    li.item.item-about
+                                        a(href="#") About us
+                                        <i class="fas fa-chevron-right"></i>
+                                        ul.menu2
+                                            li
+                                                a(href="#") About us 01
+                                            li
+                                                a(href="#") About us 02
+                                            
+                                    li.item
+                                        a(href="#") Contact us
+                                    li.item
+                                        a(href="#") Leadership
+                                    li.item
+                                        a(href="#") Why choose us
+                                    li.item
+                                        a(href="#") Our history
+                                    li.item
+                                        a(href="#") FAQs
+                                    li.item
+                                        a(href="#") Careers
+                                    li.item
+                                        a(href="#") Pricing plans                          
+                            li.bottom-item
+                                a(href="#")
+                                    span IT solutions
+                                    <i class="fas fa-chevron-down menu3a"></i>
+                                ul.menu-item.menu-item3
+                                    li.item
+                                        a(href="#") IT Services
+                                    li.item
+                                        a(href="#") Managed IT Services
+                                    li.item
+                                        a(href="#") Industries
+                                    li.item
+                                        a(href="#") Business solution
+                            li.bottom-item
+                                a(href="#")
+                                    span Elements
+                                    <i class="fas fa-chevron-down menu4"></i>
+                                ul.menu3.menu-item4
+                                    li.item
+                                        a(href="#").text-uppercase elements group 01
+                                        ul
+                                            li
+                                                a(href="#") Accordions & Toggles
+                                            li
+                                                a(href="#") Box Icon
+                                            li
+                                                a(href="#") Box Image
+                                            li
+                                                a(href="#") Box Large Image
+                                            li
+                                                a(href="#") Buttons
+                                            li
+                                                a(href="#") Call to cation
+                                            li
+                                                a(href="#") Client Logo
+                                            li
+                                                a(href="#") Countdown
+                                    li.item
+                                        a(href="#").text-uppercase elements group 02
+                                        ul
+                                            li
+                                                a(href="#") Counters
+                                            li
+                                                a(href="#") Dividers
+                                            li
+                                                a(href="#") Flexible image slider
+                                            li
+                                                a(href="#") Google Map
+                                            li
+                                                a(href="#") Gradation
+                                            li
+                                                a(href="#") Instagram
+                                            li
+                                                a(href="#") List
+                                            li
+                                                a(href="#") Message Box
+                                    li.item
+                                        a(href="#").text-uppercase elements group 03
+                                        ul
+                                            li
+                                                a(href="#") Popup Video
+                                            li
+                                                a(href="#") Pricing Box
+                                            li
+                                                a(href="#") Progress Bar
+                                            li
+                                                a(href="#") Progress Circle
+                                            li
+                                                a(href="#") Rows & Columns
+                                            li
+                                                a(href="#") Social Networks
+                                            li
+                                                a(href="#") Tabs
+                                            li
+                                                a(href="#") Team Member
+                                    li.item
+                                        a(href="#").text-uppercase elements group 04
+                                        ul
+                                            li
+                                                a(href="#") Testimonials
+                                            li
+                                                a(href="#") Timeline
+                                            li
+                                                a(href="#") Carousel Sliders
+                                            li
+                                                a(href="#") Typed Text
+                                            li
+                                                a(href="#") Unlimited Charts
+                            li.bottom-item
+                                a(href="#")
+                                    span Case Studies
+                                    <i class="fas fa-chevron-down menu5"></i>
+                                ul.menu-item.menu-item5
+                                    li.item
+                                        a(href="#") Case Studies 01
+                                    li.item
+                                        a(href="#") Case Studies 02
+                                    li.item
+                                        a(href="#") Single Layout        
+                            li.bottom-item
+                                a(href="#")
+                                    span Blog
+                                    <i class="fas fa-chevron-down menu6"></i>
+                                ul.menu-item.menu-item6
+                                    li.item
+                                        a(href="#") List Large Image
+                                    li.item
+                                        a(href="#") Left Large Image
+                                    li.item
+                                        a(href="#") Grid Classic
+                                    li.item
+                                        a(href="#") Grid Mansory
+                                    li.item
+                                        a(href="#") Single Layout
+
+    
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js")
+    <!-- Popper JS -->
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js")
+    <!-- Latest compiled JavaScript -->
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js")
+    <!--owl carousel js-->
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js")
+    <!--animate css vs js-->
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js")
+    <!--google font js-->
+    script(src="https://kit.fontawesome.com/a076d05399.js")
+    <!-- zoom img -->
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js")
+    <!--isotope-->
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js")
+    script(src="js/index.js")

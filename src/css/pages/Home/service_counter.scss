@@ -1,0 +1,56 @@
+.counter{
+    background-color: #fff;
+    .container{
+        .row{
+            .col-sm-12{
+                margin-left: 8%;
+                .content{
+                    margin-top: 50px;
+                    h3{
+                        max-width: 300px;
+                        position: relative;
+                        font-size: 12px;
+                        line-height: 2em;
+                        letter-spacing: 2px;
+                        color: #ababab;
+                        text-transform: uppercase;
+                        display: flex;
+                        margin: 0;
+                        b{
+                            font-size: 180px;
+                            color: #d2a98e;
+                        }
+                    }
+                    h4{
+                        font-size: 40px;
+                        line-height: 1.4;
+                    }
+                    .bg{
+                        color: #086ad8;
+                    }
+                }
+            }
+            .col-sm-6{
+                .content{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .counter_item{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 50%;
+                        span{
+                            color: #086ad8;
+                            font-size: 56px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: #ababab;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
